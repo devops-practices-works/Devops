@@ -1,2 +1,43 @@
+#######################generate ssh Keys to autheniticate your git bash#############
+
+1. Open a git terminal on your local computer and enter the following:
+	ssh-keygen -t rsa -C "chanduprasad17@gmail.com"
+2. Just press <Enter> to accept the default location and file name. 
+	If the .ssh directory doesn't exist, the system creates one for you.
+Enter, and re-enter, a passphrase when prompted.
+ 3. GO to .ssh Location
+     edit the Key id_rsa.pub
+4. Copy the KEY
+5. GO to git hub account,under settings, click on SSH KEY 
+    Paste the KEY...
+6.
+Try with Git push origin master
+
+#########################testing ssh####################
+
+Open Git Bash.
+
+Enter the following:
+
+ssh -T git@github.com
+# Attempts to ssh to GitHub
+You may see a warning like this:
+
+The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)?
+or like this:
+
+The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)?
+Verify that the fingerprint in the message you see matches one of the messages in step 2, then type yes:
+
+Hi username! You've successfully authenticated, but GitHub does not
+provide shell access.
+Verify that the resulting message contains your username. If you receive a "permission denied" message, see "Error: Permission denied (publickey)".
+
+########################################
+
 git init
 git commit -m "message"
