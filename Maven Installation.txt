@@ -1,0 +1,43 @@
+Maven Installation:
+
+Step 1 – Install Java
+Java 8:
+sudo yum install java-1.8.0-openjdk
+sudo yum install java-1.8.0-openjdk-devel
+
+verify:
+java -version 
+
+2. Install Maven
+
+	cd /opt
+	wget http://www-eu.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+	sudo tar xzf apache-maven-3.5.4-bin.tar.gz
+	sudo ln -s apache-maven-3.5.4 maven
+
+Step 3 – Setup Environment Variables:
+
+sudo vi /etc/profile.d/maven.sh
+and add following content.
+
+	export M2_HOME=/opt/maven
+	export PATH=${M2_HOME}/bin:${PATH}
+
+Now load the environment variables in current shell using following command.
+
+	source /etc/profile.d/maven.sh
+
+Step 4 – Check Maven Version:
+	mvn -version
+
+ex: Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T14:33:14-04:00)
+Maven home: /opt/maven
+Java version: 1.8.0_171, vendor: Oracle Corporation, runtime: /opt/jdk1.8.0_171/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.10.0-693.21.1.el7.x86_64", arch: "amd64", family: "unix"
+
+
+Finally, remove the downloaded archive file from the system to free disk space.
+
+rm -f /opt/apache-maven-3.5.4-bin.tar.gz
+

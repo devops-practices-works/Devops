@@ -1,0 +1,117 @@
+
+DevOps:
+
+10 days
+ 6 hours/Day
+ 
+ 
+ 
+ Intro:
+ 
+ 
+ requirement-> application> testing -> deployment->
+ 
+ waterfall: >
+ 
+ agile
+ 
+ devops
+ 
+ 
+  Terms:
+  
+  Devops ->
+  
+  CI > Continiousn integration-
+  
+  CD -> Cpntinious delivery/deployment
+  CM ->Configuration management
+  
+  
+  
+  Build and Release Profile:
+  Linux platform
+  
+  1.What is devops?
+  2. Basics of Linux os?  ------ 22/09/18 ->morning
+     basics commands 
+	 daily usage 
+	  practise commands
+	  
+  3. Version control  ---- 22/09/18 evening 
+	Svn 
+	Git(DVCS)
+	 git configuration
+	  git set up
+	  git account
+	  reposity
+	  git branching strategy
+		basics commands 
+	   daily usage 
+	   practise commands
+  
+  4. BuildTools  ----- 23/09/18
+      Ant   -old one
+	  Maven --latest
+	  	   USing Java Technology
+		   What is Maven?
+		   What is POM.xml?
+		   What are the phases?
+		   What are the Goals?
+		   Sample Executions?
+		
+	  Gradle -.  using and preferable
+  
+  5. CI Tools -> jenkins 23/09/18, 29/09/18
+      1. What is Jenkins
+	  2. installation of jenkins (windows/linux)
+	     jenkins configuration
+		 jenkins maven configuration
+		 jenkins plugins
+		 jenkins jobs
+		 jenkins job with git
+		 jenkins schduling
+		 jenkins pipline
+		 jenkins test case(junit/jmeter)
+		 jenkins sonarqube
+		 jenkins build store in artifactory/nexus
+		 jenkins deploy (tomcat application)
+		 
+  
+  6. Containerization 30/09/18
+     Docker
+	 
+	 What is docker,
+	 Docker images
+	 docker containers
+	 docker hub
+	 Create the image 
+	 Dockerfile creation
+	 Build the iamge with docker
+	 run the container with image
+	 docker process
+	 docker network
+	 docker swarm
+	 docker compose
+	 docker deployment application using jenkins
+	 
+  7. COnfiguration management
+      Ansible
+	    it s not cover ..at the end we can see
+		
+  8. Basic of AWS    week plan 06/10/18
+        create the instance
+        run the jenkins
+         connect with local application
+        configure as slave		 
+  9  Project
+     Build and Deployment application using jenkins
+  10. Resume preparation
+  11. Scripting
+      Shell script sh
+	  python
+  
+  
+ 
+ 
+ 

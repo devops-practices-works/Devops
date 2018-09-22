@@ -39,5 +39,10 @@ Verify that the resulting message contains your username. If you receive a "perm
 
 ########################################
 
+Java 8:
+sudo yum install java-1.8.0-openjdk
+sudo yum install java-1.8.0-openjdk-devel
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64
+
 git init
 git commit -m "message"
