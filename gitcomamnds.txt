@@ -1,7 +1,7 @@
 #######################generate ssh Keys to autheniticate your git bash#############
 
 1. Open a git terminal on your local computer and enter the following:
-	ssh-keygen -t rsa -C "chanduprasad17@gmail.com"
+	ssh-keygen -t rsa -C "rama@gmail.com"
 2. Just press <Enter> to accept the default location and file name. 
 	If the .ssh directory doesn't exist, the system creates one for you.
 Enter, and re-enter, a passphrase when prompted.
